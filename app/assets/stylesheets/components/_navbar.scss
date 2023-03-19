@@ -17,7 +17,8 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 60px;
+  width: 275px;
+  padding: 0 8px;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -101,5 +102,11 @@ a.dropdown-item:hover  {
 
   .navbar-collapse {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar-lewagon .navbar-brand img {
+    width: 225px;
   }
 }
